@@ -1,0 +1,122 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"js/update.js",
+			"list.html"
+		],
+		"refer": [
+			"index-menu.html",
+			"list.html"
+		]
+	},
+	"examples/tab-webview-subpage-contact.html": {
+		"resources": [
+			"images/60x60.gif"
+		]
+	},
+	"examples/tab-webview-main.html": {
+		"resources": [
+			"examples/tab-webview-subpage-about.html"
+		],
+		"refer": [
+			"examples/tab-webview-subpage-setting.html",
+			"examples/tab-webview-subpage-chat.html",
+			"examples/tab-webview-subpage-contact.html",
+			"examples/tab-webview-subpage-about.html"
+		]
+	},
+	"list.html": {
+		"refer": [
+			"examples/template.html",
+			"examples/tab-webview-main.html",
+			"examples/pullrefresh_main.html",
+			"examples/guide.html",
+			"examples/ajax.html",
+			"examples/actionsheet.html",
+			"examples/card.html",
+			"examples/tableviews-with-swipe.html",
+			"examples/switches.html",
+			"examples/info.html",
+			"examples/dtpicker.html",
+			"examples/list-with-input.html",
+			"examples/list-triplex-row.html",
+			"examples/tableviews-with-collapses.html",
+			"examples/media-list.html",
+			"examples/picker.html",
+			"examples/popovers.html"
+		]
+	},
+	"examples/pullrefresh_main.html": {
+		"resources": [
+			"examples/pullrefresh_sub.html"
+		],
+		"refer": [
+			"examples/pullrefresh_sub.html"
+		]
+	},
+	"examples/actionsheet.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/app.css",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		]
+	},
+	"examples/card.html": {
+		"resources": [
+			"images/cbd.jpg",
+			"images/yuantiao.jpg",
+			"images/logo.png"
+		]
+	},
+	"index-menu.html": {
+		"refer": [
+			"examples/offcanvas-drag-left.html"
+		]
+	},
+	"examples/switches.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/app.css",
+			"css/mui.min.css"
+		]
+	},
+	"examples/tableviews-with-swipe.html": {
+		"resources": [
+			"fonts/mui.ttf"
+		]
+	},
+	"examples/info.html": {
+		"resources": [
+			"images/qrcode.png"
+		]
+	},
+	"examples/dtpicker.html": {
+		"resources": [
+			"js/mui.picker.min.js",
+			"css/app.css",
+			"css/mui.picker.min.css"
+		]
+	},
+	"examples/media-list.html": {
+		"resources": [
+			"images/cbd.jpg",
+			"images/yuantiao.jpg",
+			"images/muwu.jpg",
+			"images/shuijiao.jpg"
+		]
+	},
+	"examples/picker.html": {
+		"resources": [
+			"js/mui.picker.js",
+			"js/mui.poppicker.js",
+			"js/city.data.js",
+			"css/mui.poppicker.css",
+			"css/mui.picker.css",
+			"js/city.data-3.js"
+		]
+	}
+}
